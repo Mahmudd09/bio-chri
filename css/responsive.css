@@ -1,0 +1,99 @@
+/*	Less Framework 4 with 16/24 type presets
+	http://lessframework.com
+	by Joni Korpi
+	License: http://opensource.org/licenses/mit-license.php	*/
+
+
+
+/*	Resets
+	------	*/
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, 
+p, blockquote, pre, a, abbr, address, cite, code, del, dfn, em, 
+img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, hr, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend, 
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figure, figcaption, hgroup, 
+menu, footer, header, nav, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+article, aside, canvas, figure, figure img, figcaption, hgroup,
+footer, header, nav, section, audio, video {
+	display: block;
+}
+
+a img {border: 0;}
+
+
+@media only screen and (min-width:992px) and (max-width: 1280px){
+	.buy button{
+		width:100%;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.buy button{
+		width: 100%;
+	}
+	
+}
+
+
+
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+
+@media only screen and (max-width: 767px) {
+	
+	.logo{
+		margin-bottom:25px;
+	}
+	.support{
+		padding-bottom: 25px;
+	}
+	.search_box{
+		padding-bottom:20px;
+	}
+	.cart_box{
+		 margin-left: 20%;
+	}
+	.product_box{
+		margin-bottom:25px;
+	}
+	.deal_box{
+		margin-bottom:20px;
+	}
+	.blog_img{
+		margin-bottom:15px;
+	}
+	.buy button{
+		width: 100%;
+	}
+	.wiget_ttl h2{
+		
+	}
+}
+
+
+
+/*		Wide Mobile Layout: 480px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+	
+
+}
